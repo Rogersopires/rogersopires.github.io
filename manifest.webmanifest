@@ -1,0 +1,21 @@
+{
+  "id": "./index.html",
+  "name": "LuRo - Finanças",
+  "short_name": "LuRo",
+  "description": "Controle financeiro pessoal",
+  "lang": "pt-BR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f5f7f5",
+  "theme_color": "#16794b",
+  "icons": [
+    {
+      "src": "luro-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

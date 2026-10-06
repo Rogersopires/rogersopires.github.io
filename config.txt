@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "categories": [
+    { "name": "Alimentação", "subcategories": ["Mercado", "Restaurante"] },
+    { "name": "Moradia", "subcategories": ["Energia", "Aluguel", "Financiamento"] },
+    { "name": "Transporte", "subcategories": ["Combustível", "Seguro"] },
+    { "name": "Saúde", "subcategories": ["Medicamentos"] },
+    { "name": "Lazer", "subcategories": ["Jogos"] },
+    { "name": "Educação", "subcategories": ["Cursos"] },
+    { "name": "Eletrônicos", "subcategories": ["Computador"] },
+    { "name": "Vestuário", "subcategories": ["Roupas"] },
+    { "name": "Investimentos", "subcategories": ["FIIs", "Renda Fixa"] },
+    { "name": "Receitas", "subcategories": ["Salário", "Estornos", "Reembolsos"] },
+    { "name": "Dívidas", "subcategories": ["Empréstimos"] },
+    { "name": "Transferência", "subcategories": ["Entre contas"] },
+    { "name": "Outros", "subcategories": [] }
+  ],
+  "accounts": [
+    { "name": "NuBank", "type": "conta" },
+    { "name": "Itaú", "type": "conta" },
+    { "name": "Carteira", "type": "dinheiro" },
+    { "name": "XP", "type": "investimento" }
+  ],
+  "cards": [
+    { "name": "NuBank", "limit": 5000, "closing": 20, "due": 27 }
+  ],
+  "types": [
+    "receita", "despesa", "transferencia", "investimento", "resgate",
+    "rendimento", "dividendo", "juros", "taxa", "amortizacao",
+    "estorno", "financiamento", "emprestimo"
+  ],
+  "statuses": ["previsto", "confirmado", "cancelado"],
+  "recurrences": [
+    "diaria", "semanal", "quinzenal", "mensal", "bimestral",
+    "trimestral", "semestral", "anual"
+  ],
+  "budgets": [],
+  "assets": [],
+  "liabilities": []
+}
