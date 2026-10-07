@@ -1,4 +1,4 @@
-const CACHE_NAME='luro-financas-v1.0.2';
+const CACHE_NAME='luro-financas-v1.0.3';
 const APP_SHELL=['./','./index.html','./manifest.webmanifest','./luro-icon.svg','./config.txt'];
 
 self.addEventListener('install',event=>{
